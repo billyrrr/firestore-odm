@@ -1,12 +1,12 @@
 import setuptools
 
 setuptools.setup(name='firestore_odm',
-                 version="0.0.1.dev3",
+                 version="0.0.1.dev5",
                  description='Firestore Object Document Mapping. ',
-                 long_description=open('README.md').read().strip(),
                  author='Bill Rao',
                  author_email='billrao@me.com',
-                 url='http://path-to-my-packagename',
+                 url='https://github.com/billyrrr/firestore-odm',
+                 # download_url='https://github.com/billyrrr/firestore-odm/archive/0.0.1.dev3.tar.gz',
                  install_requires=[
                      'google-auth==1.5.1',
                      'google-cloud-datastore>=1.4.0',

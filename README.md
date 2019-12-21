@@ -1,4 +1,5 @@
-# flask-boiler
+firestore-odm
+==========================
 
 Firestore-odm maps Firestore document to objects. 
 

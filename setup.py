@@ -1,15 +1,12 @@
 import setuptools
-from packagename.version import Version
 
-
-setuptools.setup(name='firestore-odm',
-                 version=Version('1.0.0').number,
+setuptools.setup(name='firestore_odm',
+                 version="0.0.1.dev3",
                  description='Firestore Object Document Mapping. ',
                  long_description=open('README.md').read().strip(),
                  author='Bill Rao',
                  author_email='billrao@me.com',
                  url='http://path-to-my-packagename',
-                 py_modules=['firestore_odm'],
                  install_requires=[
                      'google-auth==1.5.1',
                      'google-cloud-datastore>=1.4.0',
@@ -23,6 +20,7 @@ setuptools.setup(name='firestore-odm',
                      "celery"
                  ],
                  license='MIT License',
+                 packages=setuptools.find_packages(),
                  zip_safe=False,
                  keywords=["firebase", "firestore", "ORM",
                            "backend", "nosql"],

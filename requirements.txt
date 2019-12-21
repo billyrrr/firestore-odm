@@ -1,0 +1,30 @@
+# Compares expected object and actual object
+testfixtures
+
+pytest
+pytest-cov
+coveralls
+
+# Dependencies for flasgger + marshmallow use case
+marshmallow
+apispec
+
+sphinx
+
+# See docs/conf.py
+m2r
+
+google-auth==1.5.1
+google-cloud-datastore>=1.4.0
+google-api-python-client
+firebase-admin>=3.0.0
+
+# Serializes and deserializes data
+marshmallow>=3.0.3
+
+# Provides conversion between "CamelCase" and "snake_case"
+inflection
+
+dictdiffer
+
+celery

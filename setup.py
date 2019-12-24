@@ -6,7 +6,7 @@ setuptools.setup(name='firestore_odm',
                  author='Bill Rao',
                  author_email='billrao@me.com',
                  url='https://github.com/billyrrr/firestore-odm',
-                 # download_url='https://github.com/billyrrr/firestore-odm/archive/0.0.1.dev3.tar.gz',
+                 download_url='https://github.com/billyrrr/firestore-odm/archive/0.0.1.dev5.tar.gz',
                  install_requires=[
                      'google-auth==1.5.1',
                      'google-cloud-datastore>=1.4.0',

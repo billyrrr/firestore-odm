@@ -5,10 +5,6 @@ pytest
 pytest-cov
 coveralls
 
-# Dependencies for flasgger + marshmallow use case
-marshmallow
-apispec
-
 sphinx
 
 # See docs/conf.py

@@ -12,7 +12,6 @@ Welcome to firestore-odm's documentation!
 
    comparison
 
-
 Indices and tables
 ==================
 

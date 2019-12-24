@@ -24,3 +24,5 @@ inflection
 dictdiffer
 
 celery
+
+sphinx-rtd-theme

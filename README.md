@@ -1,6 +1,8 @@
 firestore-odm
 ==========================
 
+[![Documentation Status](https://readthedocs.org/projects/firestore-odm/badge/?version=latest)](https://firestore-odm.readthedocs.io/en/latest/?badge=latest)
+
 Firestore-odm maps Firestore document to objects. 
 
 This framework is at development stage. API is not guaranteed and may change often. 

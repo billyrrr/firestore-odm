@@ -11,6 +11,7 @@ Welcome to firestore-odm's documentation!
    :caption: Contents:
 
    comparison
+   context-management
 
 Indices and tables
 ==================

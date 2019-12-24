@@ -96,6 +96,7 @@ class Context:
     @classmethod
     def _reload_firestore_client(cls, cred_path):
         try:
+            # co = ClientOptions(api_endpoint="firestore.googleapis.com")
             cls.db = firestore.Client.from_service_account_json(cred_path)
         except ValueError as e:
             logging.exception('Error initializing firestore client from cls.firebase_app')
